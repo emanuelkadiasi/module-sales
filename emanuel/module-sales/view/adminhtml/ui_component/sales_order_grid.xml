@@ -16,4 +16,13 @@
             </argument>
         </paging>
 	</listingToolbar>
+	<columns name="sales_order_columns">
+        <column name="signifyd_guarantee_status">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="componentDisabled" xsi:type="boolean">true</item>
+                </item>
+            </argument>
+        </column>
+    </columns>
 </listing>
