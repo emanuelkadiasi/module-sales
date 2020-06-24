@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+	<listingToolbar name="listing_top">
+        <paging name="listing_paging">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                	<item name="storageConfig" xsi:type="array">
+                        <item name="provider" xsi:type="string">customer_listing.customer_listing.listing_top.bookmarks</item>
+                        <item name="namespace" xsi:type="string">current.paging</item>
+                    </item>
+                    <item name="selectProvider" xsi:type="string">customer_listing.customer_listing.customer_columns.ids</item>
+                    <item name="sizesConfig" xsi:type="array">
+                        <item name="value" xsi:type="string">1</item>
+                    </item>
+                </item>
+            </argument>
+        </paging>
+	</listingToolbar>
+</listing>
